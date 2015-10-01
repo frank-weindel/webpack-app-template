@@ -17,7 +17,7 @@ var configTarget = argv.configTarget || target || 'development';
 var sourceMaps = argv.maps || (target === 'development');
 var watch = argv.watch || (target === 'development');
 var uglify = argv.uglify || (target === 'production');
-var port = argv.port || 8080;
+var port = argv.port || 8085;
 var singleRun = argv.singleRun || false;
 
 var targetDir = target;
